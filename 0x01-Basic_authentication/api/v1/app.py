@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Route module for the API
@@ -9,7 +8,6 @@ from api.v1.auth.auth import Auth
 from api.v1.auth.basic_auth import BasicAuth
 from flask import Flask, jsonify, abort, request
 from flask_cors import (CORS, cross_origin)
-import os
 
 
 app = Flask(__name__)
